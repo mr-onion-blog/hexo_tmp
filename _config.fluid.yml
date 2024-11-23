@@ -766,7 +766,7 @@ gitalk:
   repo: mr-onion-blog.gitalk
   clientID: Ov23liyHPC3xavVGVZaP
   clientSecret: 8c0b00bdac0d86e6c81be5480959bc1b83b3cc56
-  admin: SuperUseryjh
+  admin: ['SuperUseryjh']
 
 # Utterances
 # 基于 GitHub Issues
