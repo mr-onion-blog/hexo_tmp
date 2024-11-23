@@ -3,5 +3,5 @@ git add .
 git commit -m "$1"
 git branch -M main
 git remote add origin git@github.com:mr-onion-blog/hexo_tmp.git
-git push -u -force origin main
+git push -u --force origin main
 git remote remove origin
