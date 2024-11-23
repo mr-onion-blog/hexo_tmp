@@ -746,11 +746,11 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
-    type: disqus
+    type: gitalk
 
 
 #---------------------------
@@ -760,6 +760,13 @@ post:
 # 开启评论需要先设置上方 `post: comments: enable: true`，然后根据 `type` 设置下方对应的评论插件参数
 # Enable comments need to be set `post: comments: enable: true`, then set the corresponding comment plugin parameters below according to `type`
 #---------------------------
+
+gitalk:
+  owner: SuperUseryjh
+  repo: mr-onion-blog.gitalk
+  clientID: Ov23liyHPC3xavVGVZaP
+  clientSecret: 8c0b00bdac0d86e6c81be5480959bc1b83b3cc56
+  admin: SuperUseryjh
 
 # Utterances
 # 基于 GitHub Issues
