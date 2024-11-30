@@ -1,5 +1,7 @@
 name: Hexo Deploy Automatically
 
+on: 
+
 # on: [push]
 
 jobs:
