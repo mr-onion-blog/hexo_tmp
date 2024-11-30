@@ -1,6 +1,7 @@
 name: Hexo Deploy Automatically
 
 on: 
+  workflow_dispatch:
 
 # on: [push]
 
