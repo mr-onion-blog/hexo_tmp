@@ -376,7 +376,7 @@ navbar:
       icon: "iconfont icon-link-fill",
       submenu: [
         { key: "友链主页", link: "/links/" },
-        { key: "友链 - LinuxDo", links: "/links/LinuxDo/" },
+        { key: "友链 - LinuxDo", links: "/links/LinuxDo/" }
       ]
     }
 
