@@ -147,13 +147,13 @@ color:
 
   # 顶部菜单背景色
   # Color of navigation bar background
-  navbar_bg_color: "#2f4154"
-  navbar_bg_color_dark: "#1f3144"
+  navbar_bg_color: "#ffbc42"
+  navbar_bg_color_dark: "#8f2d56"
 
   # 顶部菜单字体色
   # Color of navigation bar text
-  navbar_text_color: "#fff"
-  navbar_text_color_dark: "#d0d0d0"
+  navbar_text_color: "#d81159"
+  navbar_text_color_dark: "#218380"
 
   # 副标题字体色
   # Color of subtitle text
@@ -371,14 +371,7 @@ navbar:
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
-    - {
-      key: "links",
-      icon: "iconfont icon-link-fill",
-      submenu: [
-        { key: "友链主页", link: "/links/" },
-        { key: "友链 - LinuxDo", links: "/links/LinuxDo/" }
-      ]
-    }
+    - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
@@ -396,7 +389,7 @@ search:
   # 搜索的范围
   # Search field
   # Options: post | page | all
-  field: post
+  field: all
 
   # 搜索是否扫描正文
   # If true, search will scan the post content
