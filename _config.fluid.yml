@@ -371,7 +371,6 @@ navbar:
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
-    - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
@@ -746,7 +745,7 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: true
+    enable: false
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
@@ -796,23 +795,23 @@ disqus:
 #   clientSecret: 8c0b00bdac0d86e6c81be5480959bc1b83b3cc56
 #   admin: ['SuperUseryjh']
 
-gitalk:
-  clientID: Ov23liE7xQ1E5Fj0brz0
-  clientSecret: e23bba280b7b1dec0d01a2ffb0eecaf5371999dd
-  repo: mr-onion-blog.gitalk
-  owner: SuperUseryjh
-  admin: ['SuperUseryjh']
-  language: zh-CN
-  labels: ['Gitalk']
-  perPage: 10
-  pagerDirection: last
-  distractionFreeMode: false
-  createIssueManually: true
-  # 默认 proxy 可能会失效，解决方法请见下方链接
-  # The default proxy may be invalid, refer to the links for solutions
-  # https://github.com/gitalk/gitalk/issues/429
-  # https://github.com/Zibri/cloudflare-cors-anywhere
-  proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token
+# gitalk:
+#   clientID: Ov23liE7xQ1E5Fj0brz0
+#   clientSecret: e23bba280b7b1dec0d01a2ffb0eecaf5371999dd
+#   repo: mr-onion-blog.gitalk
+#   owner: SuperUseryjh
+#   admin: ['SuperUseryjh']
+#   language: zh-CN
+#   labels: ['Gitalk']
+#   perPage: 10
+#   pagerDirection: last
+#   distractionFreeMode: false
+#   createIssueManually: true
+#   # 默认 proxy 可能会失效，解决方法请见下方链接
+#   # The default proxy may be invalid, refer to the links for solutions
+#   # https://github.com/gitalk/gitalk/issues/429
+#   # https://github.com/Zibri/cloudflare-cors-anywhere
+#   proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token
 
 # Valine
 # 基于 LeanCloud
