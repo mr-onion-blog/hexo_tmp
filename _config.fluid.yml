@@ -1001,6 +1001,8 @@ about:
     - { class: "iconfont icon-github-fill", link: "https://github.com/SuperUseryjh", tip: "GitHub" }
     - { class: "iconfont icon-code", link: "https://hydro.ac/user/27764", tip: "Hydro" }
     - { class: "iconfont icon-bilibili-fill", link: "https://space.bilibili.com/668245690", tip: "哔哩哔哩" }
+    - { class: "iconfont icon-mail", link: "mailto:admin@mr-onion-blog.fun", tip: "Email" }
+
 
 
 #---------------------------
