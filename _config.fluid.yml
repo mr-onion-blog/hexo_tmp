@@ -375,8 +375,8 @@ navbar:
       key: "相关网页",
       icon: "iconfont icon-notebook",
       submenu: [
-        { key: '站点状态', link: 'https://status.mr-onion-blog.fun' },
-        { key: '个人主页', link: 'https://home.mr-onion-blog.fun' }
+        { key: '站点状态', link: 'https://status.yaoonion.fun' },
+        { key: '个人主页', link: 'https://yaoonion.fun' }
       ]
     }
 
@@ -1001,7 +1001,7 @@ about:
     - { class: "iconfont icon-github-fill", link: "https://github.com/SuperUseryjh", tip: "GitHub" }
     - { class: "iconfont icon-code", link: "https://hydro.ac/user/27764", tip: "Hydro" }
     - { class: "iconfont icon-bilibili-fill", link: "https://space.bilibili.com/668245690", tip: "哔哩哔哩" }
-    - { class: "iconfont icon-mail", link: "mailto:admin@mr-onion-blog.fun", tip: "Email" }
+    - { class: "iconfont icon-mail", link: "mailto:admin@yaoonion.fun", tip: "Email" }
 
 
 
@@ -1037,7 +1037,7 @@ page404:
 # Links Page
 #---------------------------
 links:
-  enable: false
+  enable: true
   banner_img: /img/banner/banner.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
@@ -1045,22 +1045,10 @@ links:
   # Member item of page
   items:
     - {
-      title: "Fluid Blog",
-      intro: "主题博客",
-      link: "https://hexo.fluid-dev.com/",
-      avatar: "/img/favicon.png"
-    }
-    - {
-      title: "Fluid Docs",
-      intro: "主题使用指南",
-      link: "https://hexo.fluid-dev.com/docs/",
-      avatar: "/img/favicon.png"
-    }
-    - {
-      title: "Fluid Repo",
-      intro: "主题 GitHub 仓库",
-      link: "https://github.com/fluid-dev/hexo-theme-fluid",
-      avatar: "/img/favicon.png"
+      title: "梦蝶’world",
+      intro: "专注现代开发/日常的精品资源导航，人工筛选高质量工具、项目等内容，帮助用户提高效率。",
+      link: "http://mengdie.tbit.xin/",
+      avatar: "http://mengdie.tbit.xin/blogs/wp-content/uploads/2025/12/github.jpg"
     }
 
   # 当成员头像加载失败时，替换为指定图片
