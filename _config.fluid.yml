@@ -371,7 +371,7 @@ navbar:
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
-    - { key: "links", link: "/links/", icon: "iconfont icon-addressbook"}
+    - { key: "links", link: "/links/", icon: "iconfont icon-friends"}
     - {
       key: "相关网页",
       icon: "iconfont icon-notebook",
