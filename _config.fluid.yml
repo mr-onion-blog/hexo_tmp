@@ -371,6 +371,7 @@ navbar:
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
+    - { key: "links", link: "/links/", icon: "iconfont icon-addressbook"}
     - {
       key: "相关网页",
       icon: "iconfont icon-notebook",
@@ -1048,7 +1049,7 @@ links:
       title: "梦蝶’world",
       intro: "专注现代开发/日常的精品资源导航，人工筛选高质量工具、项目等内容，帮助用户提高效率。",
       link: "http://mengdie.tbit.xin/",
-      avatar: "http://mengdie.tbit.xin/blogs/wp-content/uploads/2025/12/github.jpg"
+      avatar: "/img/mengdie.png"
     }
 
   # 当成员头像加载失败时，替换为指定图片
